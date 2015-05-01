@@ -1,5 +1,5 @@
 function gausslobatto( n )
-# Gauss-Legendre-Lobatto Quadrature Nodes and Weights
+    # Gauss-Legendre-Lobatto Quadrature Nodes and Weights
 
     if ( n == 1 )
         error("Lobatto undefined for n = 1.")
